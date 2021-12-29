@@ -1,0 +1,150 @@
+                                                            * {
+                                                            margin: 0;
+                                                            padding: 0;
+                                                            font-family: Century Gothic;
+                                                        }
+                                                        
+                                                        body {
+                                                            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/269971644_4645570115534124_4920305533844143991_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=iOwydLt6BKoAX94uG-U&_nc_ht=scontent.ftun16-1.fna&oh=00_AT8bJW2ezDNcgY0NIAmlb-_gs0HKS94FRLUc5a8dcS_Ulg&oe=61D07EB4);
+                                                            height: 160vh;
+                                                            background-size: cover;
+                                                            background-position: center;
+                                                        }
+                                                        
+                                                        #main {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            margin: 2% 10%;
+                                                        }
+                                                        
+                                                        #main h1 {
+                                                            color: rgb(255, 255, 255);
+                                                            font-size: 60px;
+                                                            margin: 1%;
+                                                            text-align: center;
+                                                            border: 2px solid rgba(255, 255, 255, .5);
+                                                        }
+                                                        
+                                                        #main p {
+                                                            color: rgb(255, 255, 255);
+                                                            margin: 2%;
+                                                            text-align: center;
+                                                            font-size: 30px;
+                                                        }
+                                                        
+                                                        .button {
+                                                            background: #e62143;
+                                                            border-radius: 11px;
+                                                            box-sizing: border-box;
+                                                            color: #fff;
+                                                            cursor: pointer;
+                                                            display: flex;
+                                                            font-family: Century Gothic;
+                                                            font-size: 1.15em;
+                                                            font-weight: 600;
+                                                            justify-content: center;
+                                                            line-height: 40.4929px;
+                                                            padding: .8em 1em;
+                                                            text-align: center;
+                                                            text-decoration: none;
+                                                            text-decoration-skip-ink: auto;
+                                                            text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+                                                            text-underline-offset: 1px;
+                                                            transition: all .2s ease-in-out;
+                                                            user-select: none;
+                                                            -webkit-user-select: none;
+                                                            touch-action: manipulation;
+                                                            width: 20%;
+                                                            word-break: break-word;
+                                                            border: 0;
+                                                        }
+                                                        
+                                                        .button:active,
+                                                        .button:focus {
+                                                            border-bottom-style: none;
+                                                            border-color: #dadada;
+                                                            box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+                                                            outline: 0;
+                                                        }
+                                                        
+                                                        .button:hover {
+                                                            border-bottom-style: none;
+                                                            border-color: #dadada;
+                                                        }
+                                                        
+                                                        #openings {
+                                                            display: flex;
+                                                            justify-content: space-between;
+                                                            margin: 2% 10%;
+                                                            padding: 2%;
+                                                        }
+                                                        
+                                                        .gomycode {
+                                                            margin-bottom: 2%;
+                                                            border-radius: 2%;
+                                                        }
+                                                        
+                                                        .gomycode img {
+                                                            border-top-left-radius: 2%;
+                                                            border-top-right-radius: 2%;
+                                                            width: 80%;
+                                                        }
+                                                        
+                                                        .gomycode div {
+                                                            display: flex;
+                                                            justify-content: space-around;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .gomycode div {
+                                                            padding: 5%;
+                                                        }
+                                                        
+                                                        .gomycode div p {
+                                                            color: rgb(255, 255, 255);
+                                                        }
+                                                        
+                                                        .gomycode div button {
+                                                            background: #e62143;
+                                                            border-radius: 11px;
+                                                            box-sizing: border-box;
+                                                            color: #fff;
+                                                            cursor: pointer;
+                                                            display: flex;
+                                                            font-family: Century Gothic;
+                                                            font-size: 1.15em;
+                                                            font-weight: 600;
+                                                            justify-content: center;
+                                                            line-height: 40.4929px;
+                                                            padding: 2%;
+                                                            text-align: center;
+                                                            text-decoration: none;
+                                                            text-decoration-skip-ink: auto;
+                                                            text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+                                                            text-underline-offset: 1px;
+                                                            transition: all .2s ease-in-out;
+                                                            user-select: none;
+                                                            -webkit-user-select: none;
+                                                            touch-action: manipulation;
+                                                            width: 40%;
+                                                            word-break: break-word;
+                                                            border: 0;
+                                                        }
+                                                        
+                                                        .gomycode:hover {
+                                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .gomycode:focus {
+                                                            border-bottom-style: none;
+                                                            border-color: #dadada;
+                                                            box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+                                                            outline: 0;
+                                                        }
+                                                        
+                                                        .gomycode:hover {
+                                                            border-bottom-style: none;
+                                                            border-color: #dadada;
